@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>OKA_InebriatedTispyCow</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>OKA_TipsyCowHigh</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+          <li>
+            <label>alcohol warmth</label>
+            <description>I just feel a bit more relaxed after that drink. That's good.</description>
+            <baseMoodEffect>12</baseMoodEffect>
+          </li>
+          <li>
+            <label>quite inebriated</label>
+            <description>I'm a bit wobbly! And this is quite enjoyable.</description>
+            <baseMoodEffect>16</baseMoodEffect>
+          </li>     
+          <li>
+            <label>drunk</label>
+            <description>I feel so uninhibited and unafraid! This is a great time!</description>
+            <baseMoodEffect>22</baseMoodEffect>
+          </li>
+          <li>
+            <label>hammered</label>
+            <description>Mooo! What's going on?</description>
+            <baseMoodEffect>28</baseMoodEffect>
+          </li>   
+        </stages>
+      </ThoughtDef>
+
+</Defs>

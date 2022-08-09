@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RecipeDef>
+        <defName>OKA_Make_TipsyCow</defName>
+        <label>make tipsy cow</label>
+        <description>Make tipsy cow.</description>
+        <jobString>Making tipsy cow.</jobString>
+        <workAmount>800</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>false</allowMixingIngredients>
+        <recipeUsers>
+            <li>FueledStove</li>
+            <li>ElectricStove</li>
+        </recipeUsers>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>Milk</li>
+              </thingDefs>
+            </filter>
+            <count>4</count>
+          </li>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>Beer</li>
+              </thingDefs>
+            </filter>
+            <count>4</count>
+          </li>
+        </ingredients>
+        <products>
+          <OKA_TipsyCow>4</OKA_TipsyCow>
+        </products>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>Milk</li>
+            <li>Beer</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <defaultIngredientFilter>
+            <thingDefs>
+              <li>Milk</li>
+              <li>Beer</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <workSkill>Cooking</workSkill>
+    </RecipeDef>
+
+    <RecipeDef>
+        <defName>OKA_Make_TipsyCowBulk</defName>
+        <label>make tipsy cow x4</label>
+        <description>Make bulk tipsy cow.</description>
+        <jobString>Making bulk tipsy cow.</jobString>
+        <workAmount>2900</workAmount>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>false</allowMixingIngredients>
+        <recipeUsers>
+            <li>FueledStove</li>
+            <li>ElectricStove</li>
+        </recipeUsers>
+        <ingredients>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>Milk</li>
+              </thingDefs>
+            </filter>
+            <count>16</count>
+          </li>
+          <li>
+            <filter>
+              <thingDefs>
+                <li>Beer</li>
+              </thingDefs>
+            </filter>
+            <count>16</count>
+          </li>
+        </ingredients>
+        <products>
+          <OKA_TipsyCow>16</OKA_TipsyCow>
+        </products>
+        <fixedIngredientFilter>
+          <thingDefs>
+            <li>Milk</li>
+            <li>Beer</li>
+          </thingDefs>
+        </fixedIngredientFilter>
+        <defaultIngredientFilter>
+            <thingDefs>
+              <li>Milk</li>
+              <li>Beer</li>
+            </thingDefs>
+        </defaultIngredientFilter>
+        <workSkill>Cooking</workSkill>
+    </RecipeDef>
+    
+</Defs>
